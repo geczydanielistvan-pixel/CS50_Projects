@@ -8,7 +8,7 @@ The repository currently includes introductory C programs as I build up the foun
 *`Even_or_Odd.c`
 *`If_Else.c`
 *`hello.c` (written for fun)
-
+*`etc`
 ## Personal Note and Objectives
 When I first started coding at 14 years old, my dream was to become a game developer. Althaugh life led me down another path, 
 my goal with CS50 is to restart my relationship with system programming in this exceptionally professional Ivy League environment. 
