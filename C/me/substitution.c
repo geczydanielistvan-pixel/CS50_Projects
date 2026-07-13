@@ -49,7 +49,7 @@ int main(int argc, string argv[])
 			}
 			else
 			{
-				printf("%c", toupper(k[pt[i] - 97]));
+				printf("%c", tolower(k[pt[i] - 97]));
 			}
 		}
 		else
