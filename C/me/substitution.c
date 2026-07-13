@@ -17,7 +17,7 @@ int main(int argc, string argv[])
 		return 1;
 	}
 	
-	for(int i = 0, n = strlen(argv[1]); 1 < n; i++)
+	for(int i = 0, n = strlen(argv[1]); i < n; i++)
 	{
 		if(isalpha(argv[1][i]) == 0)
 		{
@@ -27,7 +27,7 @@ int main(int argc, string argv[])
 		
 		for(int j = i + 1; j < n; j++)
 		{
-			if(argv[1][i] == argv[1][j])
+			if(tolower(argv[1][i]) == tolower(argv[1][j]))
 			{
 				printf("No duplicate values allowed.\n");
 				return 1;
