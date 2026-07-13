@@ -37,7 +37,7 @@ int main(int argc, string argv[])
 	
 	string k = argv[1];
 	string pt = get_string("Plaintext: ");
-	printf("Ciphertext: ");
+	printf("ciphertext: ");
 	
 	for(int i = 0, n = strlen(pt); i < n; i++)
 	{
